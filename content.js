@@ -1,7 +1,7 @@
 /* editor.html에서 수정하고 저장한 내용입니다. */
 window.SITE = {
   "meta": {
-    "title": "Jio Oh · KAIST",
+    "title": "Jio Oh",
     "description": "Jio Oh, PhD candidate at KAIST. Research in reliable language models, LLM personalization and adaptation, and proactive agents.",
     "url": "https://harryoh99.github.io/",
     "updated": "October 2026"
@@ -90,7 +90,7 @@ window.SITE = {
     ],
     "biography": [
       "I am a <strong>PhD candidate at KAIST</strong>, advised by <a href=\"https://sites.google.com/view/whanglab/professor\">Prof. Steven Euijong Whang</a> in  <strong>Data Intelligence Lab</strong>.",
-      "I study how language models and agents can provide <strong>reliable help that fits different people and situations</strong>. My work spans LLM reliability, adaptation to users' language and knowledge, and proactive agents.",
+      "I study how language models and agents can provide <strong>reliable help that fits different people and situations</strong>. My work spans LLM reliability, adaptation to users' language and knowledge, and proactive agents. More broadly, I am interested in extending these directions to multimodal systems.",
       "I received my B.S. from KAIST, double majoring in Computer Science and Industrial &amp; Systems Engineering, and my M.S. in Electrical Engineering from KAIST. Previously, I was an Applied Scientist Intern at Amazon Alexa International and a Research Intern at Microsoft Research Asia."
     ],
     "links": [
