@@ -3,7 +3,7 @@ window.SITE = {
   "meta": {
     "title": "Jio Oh",
     "description": "Jio Oh, PhD candidate at KAIST. Research in reliable language models, LLM personalization and adaptation, and proactive agents.",
-    "url": "https://harryoh99.github.io/",
+    "url": "https://www.jiooh.com/",
     "updated": "October 2026"
   },
   "layout": {
@@ -105,7 +105,7 @@ window.SITE = {
     ],
     "cv": {
       "label": "CV",
-      "url": "https://drive.google.com/file/d/1c9hfhfuDMRqR0wQR_UC8KTPWmVQS6CmY/view?usp=sharing"
+      "url": "assets/cv/jio-oh-cv.pdf"
     },
     "lead": "",
     "highlightsTitle": "Internships & collaborations"
@@ -218,7 +218,7 @@ window.SITE = {
         },
         {
           "label": "PDF",
-          "url": "https://drive.google.com/file/d/1QefMCFjVYA6YRw2v1sYHK6iyEySwOljM/view?usp=sharing"
+          "url": "assets/papers/proactive-agents.pdf"
         },
         {
           "label": "Website",
@@ -251,7 +251,7 @@ window.SITE = {
         },
         {
           "label": "PDF",
-          "url": "https://drive.google.com/file/d/11YmzpcDyFZl75-wDFSsbThLoXFPVFezs/view?usp=sharing"
+          "url": "assets/papers/dialectllm.pdf"
         },
         {
           "label": "Website",
@@ -286,7 +286,7 @@ window.SITE = {
         },
         {
           "label": "PDF",
-          "url": "https://drive.google.com/file/d/18WfsdCzjEDdsYkfwJ2xSz_XydL3ZB2z-/view?usp=share_link"
+          "url": "assets/papers/classroom-ai.pdf"
         },
         {
           "label": "Website",
@@ -321,14 +321,14 @@ window.SITE = {
         },
         {
           "label": "PDF",
-          "url": "https://drive.google.com/file/d/19AqfKupJWt1Uq3LA3c4_osKHwEBj0YV-/view?usp=sharing"
+          "url": "assets/papers/talking-with-tables.pdf"
         }
       ],
       "shortTitle": "Talking with Tables",
       "featured": false,
       "id": "talking-with-tables",
       "previousTitle": "Better Think with Tables: Tabular Structures Enhance LLM Comprehension for Data-Analytics Requests",
-      "previousTitleUrl": "https://arxiv.org/abs/2412.17189v3"
+      "previousTitleUrl": "assets/papers/better-think-with-tables-v3.pdf"
     },
     {
       "title": "ERBench: An Entity-Relationship based Automatically Verifiable Hallucination Benchmark for Large Language Models",
@@ -357,7 +357,7 @@ window.SITE = {
         },
         {
           "label": "PDF",
-          "url": "https://drive.google.com/file/d/1AC1eSgAEyTPB4hJZNJjOli22w8IvXia4/view?usp=sharing"
+          "url": "assets/papers/erbench.pdf"
         },
         {
           "label": "Code",
@@ -395,7 +395,7 @@ window.SITE = {
         },
         {
           "label": "PDF",
-          "url": "https://drive.google.com/file/d/105Sjf8JTd7h850c_uKC4VzEP6k8pVHus/view?usp=sharing"
+          "url": "assets/papers/medical-imaging.pdf"
         }
       ],
       "shortTitle": "Intracranial volume segmentation",
@@ -424,7 +424,7 @@ window.SITE = {
         },
         {
           "label": "PDF",
-          "url": "https://drive.google.com/file/d/1BIACT13nWJldDK1gl-9AOsemTB2eJYpZ/view?usp=sharing"
+          "url": "assets/papers/good-enough.pdf"
         }
       ],
       "shortTitle": "Good Enough!",
