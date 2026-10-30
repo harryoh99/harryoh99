@@ -85,7 +85,7 @@
   function publication(item) {
     const authors = (item.authors || []).map(name => name.replace(/\*/g, "") === p.name ? `<strong>${esc(name)}</strong>` : esc(name)).join(", ");
     return `<article class="publication${item.featured ? " featured" : ""}"${item.id ? ` id="paper-${esc(item.id)}"` : ""}><div class="pub-meta">${item.shortTitle ? `<span class="pub-short-title">${esc(item.shortTitle)}</span>` : ""}<span class="pub-venue">${esc(item.venue)}</span><span class="pub-year">${esc(item.year)}</span>${item.note ? `<span class="pub-note">${esc(item.note)}</span>` : ""}${item.badge ? `<span class="badge${/spotlight/i.test(item.badge) ? " spotlight" : ""}">${esc(item.badge)}</span>` : ""}</div>
-      <div class="pub-content"><h3>${link(item.title, item.links?.[0]?.url)}</h3>${item.previousTitle ? `<p class="pub-previous-title">Previous title: ${link(item.previousTitle, item.previousTitleUrl)}</p>` : ""}<p class="authors">${authors}</p>${item.summary ? `<p class="pub-summary">${esc(item.summary)}</p>` : ""}${resources(item.links)}</div></article>`;
+      <div class="pub-content"><h3>${link(item.title, item.links?.[0]?.url)}</h3>${item.previousTitle ? `<div class="pub-previous-title"><span>Previous title: ${link(item.previousTitle, item.previousTitleUrl)}</span>${resources(item.previousTitleLinks)}</div>` : ""}<p class="authors">${authors}</p>${item.summary ? `<p class="pub-summary">${esc(item.summary)}</p>` : ""}${resources(item.links)}</div></article>`;
   }
   function experience(e) {
     const initials = e.organization.split(/\s+/).map(w => w[0]).slice(0, 2).join("");

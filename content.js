@@ -328,7 +328,11 @@ window.SITE = {
       "featured": false,
       "id": "talking-with-tables",
       "previousTitle": "Better Think with Tables: Tabular Structures Enhance LLM Comprehension for Data-Analytics Requests",
-      "previousTitleUrl": "assets/papers/better-think-with-tables-v3.pdf"
+      "previousTitleUrl": "https://arxiv.org/abs/2412.17189v3",
+      "previousTitleLinks": [
+        { "label": "arXiv", "url": "https://arxiv.org/abs/2412.17189v3" },
+        { "label": "PDF", "url": "assets/papers/better-think-with-tables-v3.pdf" }
+      ]
     },
     {
       "title": "ERBench: An Entity-Relationship based Automatically Verifiable Hallucination Benchmark for Large Language Models",
